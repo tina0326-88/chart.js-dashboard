@@ -10,6 +10,10 @@
 
 本專案是以 **Vue 3 + Vite + Tailwind CSS + Chart.js** 打造的出缺勤資料視覺化工具。讀入課程出缺勤紀錄後，自動計算總時數、出勤率、遲到早退等統計數字，並以圓餅圖、折線圖、長條圖呈現趨勢與分布，介面採響應式設計，桌面與行動裝置皆可流暢瀏覽。
 
+## 網站連結
+
+https://chart-js-dashboard-two.vercel.app/
+
 ## 專案特色
 
 不只是把資料套進圖表模板，而是針對出缺勤資料的實際特性做了幾個工程上的處理：
@@ -124,7 +128,7 @@ chart.js-dashboard/
 
 ```bash
 # 1. Clone 專案
-git clone https://github.com/tinachen0326/chart.js-dashboard.git
+git clone https://github.com/tina0326-88/chart.js-dashboard.git
 cd chart.js-dashboard
 
 # 2. 安裝依賴
