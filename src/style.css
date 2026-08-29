@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #eef1f5;
+  background-image:
+    linear-gradient(rgba(28, 43, 69, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(28, 43, 69, 0.045) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@keyframes stamp-in {
+  0% {
+    transform: rotate(-6deg) scale(0.6);
+    opacity: 0;
+  }
+  60% {
+    transform: rotate(-6deg) scale(1.08);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-6deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.stamp {
+  animation: stamp-in 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
